@@ -1,6 +1,6 @@
 body{
-	background:url(../img/fundosite.jpg); 
-	color:#868686; 
+	background:url(../img/fundo2.png); 
+	color:#0e0c0c; 
 	font-family: "Open Sans", Helvetica, sans-serif, arial; 
 	font-size: 18px; /* 18px a· 16px = 1.125em */
 	font-weight: 300;
@@ -46,7 +46,7 @@ p{
 	letter-spacing: -0.05555555556em; /* -1px a 18px = -0.05555555556em */
 }
 a, a:link, a:visited{
-	color:#1399da; 
+	color:#0a74ee; 
 	font-weight:400; 
 	text-decoration:none;
 }
@@ -63,7 +63,7 @@ header{
 }
 
 	header h1 a{
-		background:url(../img/logo_restaurante.png) no-repeat 40%; 
+		background:url(../img/logo_restaurante.png) no-repeat 50%;
 		display:block; 
 		float:left; 
 		height: 180px;
@@ -255,10 +255,14 @@ footer{
     }
 
     header h1 a{
-        background-position: 57% 0;
-        height: 126px;
-        margin-bottom: 15px;
-        width: 100%;
+
+		background:url(../img/logo_restaurante.png) no-repeat;
+		display:block; 
+		float: left; 
+		height: 180px;
+		text-indent:-9988; 
+		width: 50%;
+        background-position: 50%;        
     }
 
     nav{
@@ -354,12 +358,18 @@ footer{
 		height: auto;
 		text-align: center;
 	}
-	header h1 a {
-		background-position: 50%;
-		display: inherit;
-		height: 126px;
+	header h1 a{
+		padding-top: 10%;
+		background:url(../img/logo_restaurante.png) no-repeat;
+		display:block; 
+		float: center; 
+		height: 100px;
+		text-indent:-9999; 
 		width: 100%;
-	}
+        background-position: 50%;
+        height: 126px;
+        margin-bottom: 15px;
+    }
 	nav{
 		clear: both;
 	}
@@ -457,12 +467,18 @@ footer{
 		text-align:center;
 	}
 	header h1 a{
-		background:url(../img/logo-criar-site-responsivo-menor.png) no-repeat;
-		background-position: 50%;
-		display:inherit;
-		height:90px;
-		width:100%
-	}
+		padding-top: 15%;
+		background:url(../img/logo_restaurante.png) no-repeat;
+		display:block; 
+		float: center; 
+		height: 100px;
+		text-indent:-9999; 
+		width: 100%;
+        background-position: 50%;
+        height: 126px;
+        margin-bottom: 15px;
+    }
+	
 	nav li{
 		background-color:#79e1d5;
 	}
